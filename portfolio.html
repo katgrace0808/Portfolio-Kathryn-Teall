@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width-device-width, initial-scale=1">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+
+  <nav class="topnav" id="myTopnav">
+    <a href="#home" class="active">Kathryn Teall</a>
+    <a class="nav-link" href="index.html">About <span class="sr-only">(current)</span></a>
+    <a class="nav-link" href="contact.html">Contact</a>
+    <a class="nav-link" href="#">Portfolio</a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </nav>
+  <main class="container">
+    <header class="row">
+      <h1>Portfolio</h1>
+    </header>
+    <section class="row" id="repositories">
+      <h3>Sample Work:</h3>
+    </section>
+
+    <section class="row">
+      <article class="col-md-4">
+        <a href="https://katgrace0808.github.io/">
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTTe1Q9jFoKB1xtJEsX9lOqqHbspnSeybA7KZIaTTGm3un5Qy6G"
+            alt="Dog">
+        </a>
+        <aside class="text-block">
+          <h4>Student Bio</h4>
+        </aside>
+      </article>
+      <article class="col-md-4">
+        <a href="https://github.com/katgrace0808/Password-Generator">
+          <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftr2.cbsistatic.com%2Fhub%2Fi%2Fr%2F2017%2F09%2F26%2Fc0be8191-dfe3-43f1-84b0-df02589e5bb4%2Fthumbnail%2F770x578%2F7b5cb8df5bd19a1f77c7a977430e8cf2%2Fpassword-keychain.jpg&f=1&nofb=1"
+            height="225" width="225" alt="Password image">
+        </a>
+        <aside class="text-block">
+          <h4>Password-Generator</h4>
+        </aside>
+      </article>
+      <article class="col-md-4">
+        <a href="https://github.com/katgrace0808/Simple-Calendar">
+          <img
+            src="https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Ftemplatelab.com%2Fwp-content%2Fuploads%2F2016%2F06%2Fdaily-planner-template-21.jpg&f=1&nofb=1"
+            height="225" width="225" alt="Daily planner">
+        </a>
+        <aside class="text-block">
+          <h4>Simple-Calendar</h4>
+        </aside>
+      </article>
+    </section>
+    <br>
+    <section class="row">
+      <article class="col-md-4">
+        <a href="https://github.com/katgrace0808/Weather-Dashboard">
+          <img
+            src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.anao.gov.au%2Fsites%2Fdefault%2Ffiles%2Fanao_report%2Fimage%2Fanao-extreme-weather-BOM.jpg&f=1&nofb=1"
+            height="225" width="225" alt="Shelf cloud">
+        </a>
+        <aside class="text-block">
+          <h4>Weather-Dashboard</h4>
+        </aside>
+      </article>
+      <article class="col-md-4">
+        <img
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSAuUyv3QU7gHUyjskbk6PtEZEUuKSflR0XqHnEK7HdV_QQjqfF&usqp=CAU"
+          height="225" width="225" alt="Polar Bear">
+        <aside class="text-block">
+          <h4>TBD</h4>
+        </aside>
+      </article>
+      <article class="col-md-4">
+        <img
+          src="data:image/jpeg;base64,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"
+          height="225" width="225" alt="Owl">
+        <aside class="text-block">
+          <h4>TBD</h4>
+        </aside>
+      </article>
+    </section>
+    <section class="row" id="projects">
+      <h3>Projects:</h3>
+    </section>
+
+      <section class="row">
+
+      <article class="col-md-6">
+        <aside class="text-block">
+          <h4>Food Truck Application</h4>
+        </aside>
+        <img
+          src="./assets/Food-Truck-screenshot.PNG"
+          height="275" width="375" alt="Food truck deployed site">
+      </article>
+      <article class="col-md-6">
+        <ul>
+          <li><a href="https://katgrace0808.github.io/Tinder-for-Food-Trucks/">Website</a></li>
+          <li><a href="https://github.com/katgrace0808/Tinder-for-Food-Trucks">Github Repo</a></li>
+        </ul>
+        <!-- <img
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTTe1Q9jFoKB1xtJEsX9lOqqHbspnSeybA7KZIaTTGm3un5Qy6G"
+          alt="TBD">
+        <aside class="text-block">
+          <h4>TBD</h4> -->
+        <!-- </aside> -->
+      </article>
+      <!-- <article class="col-md-4">
+        <img
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTTe1Q9jFoKB1xtJEsX9lOqqHbspnSeybA7KZIaTTGm3un5Qy6G"
+          alt="TBD">
+        <aside class="text-block">
+          <h4>TBD</h4>
+        </aside>
+      </article> -->
+    </section>
+  </main>
+  <footer>
+    <em>Copyright &copy; 2020, Kathryn Teall. All Rights Reserved</em>
+    <strong class="footer-dots">·</strong>
+    <a href="mailto:katgrace0808@gmail.com?subject=Portfolio" class="footer-email">Email</a>
+    <strong class="footer-dots">·</strong>
+    <a href="assets/Kathryn-Teall-Resume.pdf" class="footer-resume">Resume</a>
+    <strong class="footer-dots">·</strong>
+    <a href="https://www.linkedin.com/in/kathrynteall79688825" class="footer-links">LinkedIn</a>
+    <strong class="footer-dots">·</strong>
+    <a href="https://github.com/katgrace0808" class="footer-links">Github</a>
+    <strong class="footer-dots">·</strong>
+    <a class="footer-phone">Phone: (206) 245-4562</a>
+  </footer>
+  <script src="script.js"></script>
+</body>
+
+</html>
